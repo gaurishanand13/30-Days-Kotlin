@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:elevation="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="7dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="3dp"
+    android:background="@drawable/without_rounded_corner_plain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/viewAllDoctorsItemImageView"
+                android:scaleType="fitXY"
+                android:src="@drawable/image_view_border"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_gravity="right"
+                    android:padding="3dp"
+                    android:id="@+id/viewAllDoctorsItemCall"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/call"
+                    android:scaleType="fitXY"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/viewAllDoctorsItemNameTextView"
+                        android:text="Mr John"
+                        android:textSize="20sp"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/viewAllDoctorsItemTimings"
+                        android:layout_marginTop="25dp"
+                        android:text="20 Apr2020 : 4 PM"
+                        android:textSize="20sp"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

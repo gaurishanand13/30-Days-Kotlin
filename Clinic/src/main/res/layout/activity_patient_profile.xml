@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patientProfileActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:theme="@style/Theme.backButtonToolbar"
+            android:id="@+id/patientProfileToolbar"
+            android:layout_width="match_parent"
+            app:titleTextColor="@android:color/white"
+            android:background="#41B4FA"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:title="Patient Profile"
+            android:layout_height="?attr/actionBarSize"/>
+        <ImageView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:id="@+id/patientImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Name : "
+            android:textSize="20sp"
+            android:id="@+id/patientName"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientContactNumber"
+            android:text="Contact Number : "
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientEmailAddress"
+            android:text="Email : "
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientGender"
+            android:text="Gender :"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientData"
+            android:text="Date : "
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientBloodGroup"
+            android:text="Blood Group : "
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientWeight"
+            android:text="Weight :"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientHeight"
+            android:text="Height : "
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/patientAddress"
+            android:gravity=""
+            android:text="Address : "
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

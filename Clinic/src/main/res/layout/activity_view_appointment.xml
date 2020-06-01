@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewAppointment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/Theme.backButtonToolbar"
+        android:id="@+id/appointmentTOolbar"
+        android:layout_width="match_parent"
+        app:title="Appointment"
+        app:titleTextColor="@android:color/white"
+        android:background="#41B4FA"
+        android:layout_height="?attr/actionBarSize"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/appointmentImageView"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image_view_border"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/appointmentName"
+                            android:text="Mr John"
+                            android:textSize="20sp"
+                            android:maxLines="1"
+                            android:textColor="@android:color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:layout_gravity="right"
+                            android:padding="3dp"
+                            android:id="@+id/appointmentCall"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/call"
+                            android:scaleType="fitXY"
+                            android:layout_width="37dp"
+                            android:layout_height="37dp"/>
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="15dp"
+                            android:text="Time : "
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:id="@+id/appointmentTimings"
+                            android:layout_marginTop="15dp"
+                            android:text="20 April 2020 : 4PM"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Patient Notes"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/notesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="start"
+                android:background="@drawable/without_rounded_corner_plain"
+                android:textSize="22sp"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:id="@+id/viewAppointmentNormalTextView"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Select Doctor"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:layout_width="250dp"
+                android:padding="5dp"
+                android:background="@drawable/without_rounded_corner_plain"
+                android:id="@+id/chooseDoctorSpinnner"
+                android:layout_gravity="center"
+                android:tooltipText="Choose Doctor"
+                android:layout_marginTop="20dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:text="Dr John"
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:padding="5dp"
+                android:background="@drawable/without_rounded_corner_plain"
+                android:id="@+id/viewAppointmentTextView"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:tooltipText="Choose Doctor"
+                android:layout_marginTop="20dp"
+                android:layout_height="40dp"/>
+            <Button
+                android:layout_gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:id="@+id/appointmentSubmitButton"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="25sp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rounded_buttons"
+                android:textColor="#FFFFFF"
+                android:text="Assign Doctor"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

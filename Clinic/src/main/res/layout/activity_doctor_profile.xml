@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctorProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/Theme.backButtonToolbar"
+        android:id="@+id/particularDoctorToolbar"
+        android:layout_width="match_parent"
+        app:title="Doctor's Profile"
+        app:titleTextColor="@android:color/white"
+        android:background="#41B4FA"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:id="@+id/doctorImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Name : "
+                android:textSize="20sp"
+                android:id="@+id/doctorName"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorContactNumber"
+                android:text="Contact Number : "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorEmailAddress"
+                android:text="Email : "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorGender"
+                android:text="Gender :"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorQualification"
+                android:text="Qualification : "
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorLicenceDetails"
+                android:text="Licence Details : "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorAddress"
+                android:gravity=""
+                android:text="Address : "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorAvailableTimings"
+                android:text="Available Timings : "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="22dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:id="@+id/doctorSpeciality"
+                android:text="Doctor Speciality : "
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

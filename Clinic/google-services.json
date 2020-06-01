@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "978117033667",
+    "firebase_url": "https://onlinehealth-9267d.firebaseio.com",
+    "project_id": "onlinehealth-9267d",
+    "storage_bucket": "onlinehealth-9267d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978117033667:android:bc7c5ba3cde4f71f00ec76",
+        "android_client_info": {
+          "package_name": "com.ho.clinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978117033667-gugmper0lrgq7htm11ddca9vcq3rhlvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXAIcKta_BeJEizdBNPWyd9nSJZJOR7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978117033667-gugmper0lrgq7htm11ddca9vcq3rhlvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978117033667:android:100c9f3930d2f43000ec76",
+        "android_client_info": {
+          "package_name": "com.ho.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978117033667-gugmper0lrgq7htm11ddca9vcq3rhlvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXAIcKta_BeJEizdBNPWyd9nSJZJOR7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978117033667-gugmper0lrgq7htm11ddca9vcq3rhlvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978117033667:android:ce17b0f0e923e9af00ec76",
+        "android_client_info": {
+          "package_name": "com.ho.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978117033667-gugmper0lrgq7htm11ddca9vcq3rhlvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXAIcKta_BeJEizdBNPWyd9nSJZJOR7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978117033667-gugmper0lrgq7htm11ddca9vcq3rhlvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
